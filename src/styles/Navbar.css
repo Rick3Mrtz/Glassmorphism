@@ -1,0 +1,35 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: rgba(255, 255, 255, .1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    z-index: 5;
+    
+}
+
+.logo {
+    color: #fff;
+    font-size: 30px;
+    text-decoration: none;
+    cursor: default;
+    font-weight: 600;
+}
+
+.navbar a {
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+    margin-left: 50px;
+    transition: .3s;
+}
+
+.navbar a:hover {
+    color: red;
+}

@@ -2,11 +2,12 @@ import './App.css';
 
 function App() {
   return (
-    <body>
+    <div className='wrapper'>
       <div className='container'>
+        
       </div>
       <div className='blob'></div>
-    </body>
+    </div>
     
   )
 }
