@@ -3,7 +3,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 100px;
+    padding: 4px 100px;
     background: rgba(255, 255, 255, .1);
     display: flex;
     justify-content: space-between;
@@ -15,13 +15,11 @@
     
 }
 
-.logo {
-    color: #fff;
-    font-size: 30px;
-    text-decoration: none;
-    cursor: default;
-    font-weight: 600;
-}
+#glass-icon {
+    width: 70px; /* Adjust the width value as needed */
+    height: auto; /* Automatically adjust the height based on the width */
+  }
+  
 
 .navbar a {
     color: #fff;
