@@ -5,7 +5,7 @@ function App() {
     <div className='wrapper'>
       <div className='container'>
         <p className='title'>
-          Glass<br></br>morphism
+          Glass-<br></br>morphism
         </p>
         
       </div>
