@@ -1,5 +1,4 @@
 import '../styles/Navbar.css';
-import Logo from '../assets/glass-logo.png';
 
 function Navbar() {
     return (
@@ -8,7 +7,7 @@ function Navbar() {
             <header className='header'>
 
             <a href='https://www.google.com/' className='logo'>
-                <img src={Logo} id='glass-icon' />
+                Rick Martinez
             </a>
 
                 <navbar className='navbar'>

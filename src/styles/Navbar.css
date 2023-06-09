@@ -3,32 +3,61 @@
     top: 0;
     left: 0;
     width: 100%;
-    padding: 4px 100px;
-    background: rgba(255, 255, 255, .1);
+    padding: 14px 30px; /* Adjust the padding for smaller screens */
+    background: rgba(255, 255, 255, 0.1);
     display: flex;
     justify-content: space-between;
     align-items: center;
     -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
     z-index: 5;
-    border-bottom: 1px solid rgb(255, 255, 255, 0.18);
-    
-}
-
-#glass-icon {
-    width: 70px; /* Adjust the width value as needed */
-    height: auto; /* Automatically adjust the height based on the width */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.18);
   }
   
-
-.navbar a {
-    color: #fff;
-    font-size: 24px;
+  .logo {
     text-decoration: none;
-    margin-left: 50px;
-    transition: .3s;
-}
+    color: #fff;
+    cursor: default;
+    font-size: 28px; /* Adjust the font size for smaller screens */
+  }
+  
+  .navbar {
+    display: flex;
+  }
+  
+  .navbar a {
+    color: #fff;
+    font-size: 18px; /* Adjust the font size for smaller screens */
+    text-decoration: none;
+    margin-left: 50px; /* Adjust the margin for smaller screens */
+    transition: 0.3s;
+  }
+  
+  @media (max-width: 768px) {
+    /* Adjust the breakpoint as needed */
+    .header {
+      padding: 14px 10px; /* Adjust the padding for smaller screens */
+    }
+  
+    .logo {
+      font-size: 24px; /* Adjust the font size for smaller screens */
+    }
+  
+    .navbar {
+      
+      align-items: flex-start; /* Align navigation links to the left */
+    }
+  
+    .navbar a {
+     
+      font-size: 16px; /* Adjust the font size for smaller screens */
+      margin-left: 20px;
+    }
+  }
 
-.navbar a:hover {
+  .navbar a:hover {
     color: red;
 }
+  
+  /* Add more media queries for smaller screens if needed */
+  
