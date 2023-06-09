@@ -1,6 +1,5 @@
 import React from 'react';
 import '../styles/Signup.css'
-import Login from './Login';
 import Background from './Background';
 
 function Signup() {

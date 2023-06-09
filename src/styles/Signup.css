@@ -89,3 +89,23 @@ body {
   button:hover {
     background-color: #dcdcdc;
   }
+
+  @media (max-width: 600px) {
+    .signup-bg {
+      height: auto;
+      width: 100vw;
+      max-width: 470px;
+    }
+    
+    h1 {
+      font-size: 30px;
+      line-height: 32px;
+      padding-bottom: 20px;
+    }
+    
+    input,
+    button {
+        width: 100%;
+      font-size: 18px;
+    }
+  }
