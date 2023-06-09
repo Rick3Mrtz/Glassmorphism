@@ -1,4 +1,6 @@
+import React from 'react';
 import '../styles/Navbar.css';
+import { Link } from "react-router-dom";
 
 function Navbar() {
     return (
@@ -11,9 +13,9 @@ function Navbar() {
             </a>
 
                 <navbar className='navbar'>
-                    <a href='https://www.google.com/'>Home</a>
-                    <a href='https://www.google.com/'>Login</a>
-                    <a href='https://www.google.com/'>Sign Up</a>
+                    <Link to="/">Home</Link>
+                    <Link to="/login">Login</Link>
+                    <Link to="/signup">Sign Up</Link>
                     
                 </navbar>
 

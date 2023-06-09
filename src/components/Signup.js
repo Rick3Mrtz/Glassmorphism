@@ -1,8 +1,12 @@
+import React from 'react';
 import '../styles/Signup.css'
+import Login from './Login';
 
 function Signup() {
     return (
-        <div></div>
+        <div>
+            <Login />
+        </div>
     )
 }
 
