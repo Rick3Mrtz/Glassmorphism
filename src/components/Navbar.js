@@ -9,13 +9,14 @@ function Navbar() {
             <header className='header'>
 
             <a className='logo'>
-                Rick Martinez
+                Myles Martinez 
             </a>
 
                 <navbar className='navbar'>
                     <Link to="/">Home</Link>
                     <Link to="/login">Login</Link>
                     <Link to="/signup">Sign Up</Link>
+
                     
                 </navbar>
 
