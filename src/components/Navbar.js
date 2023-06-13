@@ -8,7 +8,7 @@ function Navbar() {
 
             <header className='header'>
 
-            <a href='https://www.google.com/' className='logo'>
+            <a className='logo'>
                 Rick Martinez
             </a>
 
