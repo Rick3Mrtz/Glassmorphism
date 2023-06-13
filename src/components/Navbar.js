@@ -10,7 +10,7 @@ function Navbar() {
             <header className='header'>
 
             <a className='logo'>
-                Myles Martinez 
+                Rick Martinez 
             </a>
 
                 <navbar className='navbar'>
