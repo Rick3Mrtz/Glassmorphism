@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Glassmorphism/static/css/main.5eb9d71c.css",
-    "main.js": "/Glassmorphism/static/js/main.66435ec2.js",
+    "main.js": "/Glassmorphism/static/js/main.26699741.js",
     "static/js/787.ed61067d.chunk.js": "/Glassmorphism/static/js/787.ed61067d.chunk.js",
     "index.html": "/Glassmorphism/index.html",
     "main.5eb9d71c.css.map": "/Glassmorphism/static/css/main.5eb9d71c.css.map",
-    "main.66435ec2.js.map": "/Glassmorphism/static/js/main.66435ec2.js.map",
+    "main.26699741.js.map": "/Glassmorphism/static/js/main.26699741.js.map",
     "787.ed61067d.chunk.js.map": "/Glassmorphism/static/js/787.ed61067d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5eb9d71c.css",
-    "static/js/main.66435ec2.js"
+    "static/js/main.26699741.js"
   ]
 }
