@@ -23,7 +23,7 @@ function Navbar() {
 
             </header>
 
-            <Home />
+            {/* <Home /> */}
 
         </div>
     )
